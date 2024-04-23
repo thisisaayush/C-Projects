@@ -1,0 +1,7 @@
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\bin\Debug\C Sharp.exe.config
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\bin\Debug\C Sharp.exe
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\bin\Debug\C Sharp.pdb
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\obj\Debug\C Sharp.csproj.AssemblyReference.cache
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\obj\Debug\C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\obj\Debug\C Sharp.exe
+C:\Users\thaka\Desktop\C# Projects\C Sharp\C Sharp\obj\Debug\C Sharp.pdb

@@ -1,0 +1,10 @@
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\bin\Debug\Excel Connection.exe.config
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\bin\Debug\Excel Connection.exe
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\bin\Debug\Excel Connection.pdb
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel Connection.csproj.AssemblyReference.cache
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel_Connection.Form1.resources
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel_Connection.Properties.Resources.resources
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel Connection.csproj.GenerateResource.cache
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel Connection.csproj.CoreCompileInputs.cache
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel Connection.exe
+C:\Users\thaka\Desktop\C# Projects\Excel Connection\Excel Connection\obj\Debug\Excel Connection.pdb
