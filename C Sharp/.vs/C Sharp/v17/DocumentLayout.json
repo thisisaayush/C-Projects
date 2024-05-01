@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|c:\\users\\thaka\\desktop\\c# projects\\c sharp\\c sharp\\multi-threading\\threading03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\multi-threading\\threading03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\c sharp\\multi-threading\\threading02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\multi-threading\\threading02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\c sharp\\multi-threading\\threading01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\multi-threading\\threading01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\c sharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|c:\\users\\thaka\\desktop\\c# projects\\c sharp\\c sharp\\delegates\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\delegates\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,51 +31,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Threading03.cs",
-              "DocumentMoniker": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Multi-Threading\\Threading03.cs",
-              "RelativeDocumentMoniker": "C Sharp\\Multi-Threading\\Threading03.cs",
-              "ToolTip": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Multi-Threading\\Threading03.cs",
-              "RelativeToolTip": "C Sharp\\Multi-Threading\\Threading03.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Title": "Addition.cs",
+              "DocumentMoniker": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Delegates\\Addition.cs",
+              "RelativeDocumentMoniker": "C Sharp\\Delegates\\Addition.cs",
+              "ToolTip": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Delegates\\Addition.cs",
+              "RelativeToolTip": "C Sharp\\Delegates\\Addition.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T19:07:03.467Z",
+              "WhenOpened": "2024-04-24T13:45:38.3Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Threading02.cs",
-              "DocumentMoniker": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Multi-Threading\\Threading02.cs",
-              "RelativeDocumentMoniker": "C Sharp\\Multi-Threading\\Threading02.cs",
-              "ToolTip": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Multi-Threading\\Threading02.cs",
-              "RelativeToolTip": "C Sharp\\Multi-Threading\\Threading02.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA5wB4AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:55:44.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Threading01.cs",
-              "DocumentMoniker": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Multi-Threading\\Threading01.cs",
-              "RelativeDocumentMoniker": "C Sharp\\Multi-Threading\\Threading01.cs",
-              "ToolTip": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Multi-Threading\\Threading01.cs",
-              "RelativeToolTip": "C Sharp\\Multi-Threading\\Threading01.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:49:37.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Program.cs",
-              "RelativeDocumentMoniker": "C Sharp\\Program.cs",
-              "ToolTip": "C:\\Users\\thaka\\Desktop\\C# Projects\\C Sharp\\C Sharp\\Program.cs",
-              "RelativeToolTip": "C Sharp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:48:38.759Z"
             }
           ]
         },
