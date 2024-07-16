@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegates\Addition.cs" />
+    <Compile Include="Delegates\DelegateChallenge.cs" />
     <Compile Include="Multi-Threading\Threading01.cs" />
     <Compile Include="Multi-Threading\Threading02.cs" />
     <Compile Include="Multi-Threading\Threading03.cs" />
