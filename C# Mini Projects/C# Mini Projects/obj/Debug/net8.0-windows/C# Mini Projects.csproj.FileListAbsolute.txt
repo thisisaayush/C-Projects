@@ -1,0 +1,17 @@
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\bin\Debug\net8.0-windows\C# Mini Projects.exe
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\bin\Debug\net8.0-windows\C# Mini Projects.deps.json
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\bin\Debug\net8.0-windows\C# Mini Projects.runtimeconfig.json
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\bin\Debug\net8.0-windows\C# Mini Projects.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\bin\Debug\net8.0-windows\C# Mini Projects.pdb
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C__Mini_Projects.Form1.resources
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.csproj.GenerateResource.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.AssemblyInfoInputs.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.AssemblyInfo.cs
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.csproj.CoreCompileInputs.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.sourcelink.json
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\refint\C# Mini Projects.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.pdb
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\C# Mini Projects.genruntimeconfig.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\C# Mini Projects\obj\Debug\net8.0-windows\ref\C# Mini Projects.dll
