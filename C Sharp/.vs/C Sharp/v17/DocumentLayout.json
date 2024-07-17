@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C Sharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|c:\\users\\thaku\\desktop\\software engineering projects\\c# advance level\\c-sharp-projects\\c sharp\\c sharp\\delegates\\delegatechallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\delegates\\delegatechallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|c:\\users\\thaku\\desktop\\software engineering projects\\c# advance level\\c-sharp-projects\\c sharp\\c sharp\\delegates\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C Sharp\\c sharp\\delegates\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F18317C6-6251-41E4-8404-AA0B567B4912}|C Sharp\\C Sharp.csproj|solutionrelative:c sharp\\delegates\\addition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,19 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DelegateChallenge.cs",
-              "DocumentMoniker": "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C Sharp\\C Sharp\\Delegates\\DelegateChallenge.cs",
-              "RelativeDocumentMoniker": "C Sharp\\Delegates\\DelegateChallenge.cs",
-              "ToolTip": "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C Sharp\\C Sharp\\Delegates\\DelegateChallenge.cs",
-              "RelativeToolTip": "C Sharp\\Delegates\\DelegateChallenge.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T01:23:55.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Addition.cs",
               "DocumentMoniker": "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C Sharp\\C Sharp\\Delegates\\Addition.cs",
               "RelativeDocumentMoniker": "C Sharp\\Delegates\\Addition.cs",

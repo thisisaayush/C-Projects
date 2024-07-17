@@ -14,16 +14,20 @@ namespace C_Sharp.Delegates
             return x + y;
         }
 
-        // Method that subtracts two integers
+
         public static int Subtract(int x, int y)
         {
             return x - y;
         }
 
-        // Method that multiplies two integers
         public static int Multiply(int x, int y)
         {
             return x * y;
+        }
+
+        public static int Divide(int x, int y)
+        {
+            return x / y;
         }
 
         static void Main(string[] args)
