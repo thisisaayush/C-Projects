@@ -52,7 +52,17 @@ public class Class1
 				}
 
 				else if (option == "3")
+				{
+					Console.WriteLine("Exiting the To-Do List Program.");
+				}
+
+				else
+				{
+					Console.WriteLine("Invalid option, please enter the given option.");
+				}
 			}
+
+			Console.WriteLine("Thank you for using the program.");
 		}
 	}
 }
