@@ -1,0 +1,7 @@
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To_Do_List.Form1.resources
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.GenerateResource.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.AssemblyInfoInputs.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.AssemblyInfo.cs
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.CoreCompileInputs.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\To-Do List App\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.sourcelink.json
