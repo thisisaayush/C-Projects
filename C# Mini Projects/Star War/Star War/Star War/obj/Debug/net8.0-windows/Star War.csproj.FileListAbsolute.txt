@@ -1,0 +1,18 @@
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\bin\Debug\net8.0-windows\Star War.exe
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\bin\Debug\net8.0-windows\Star War.deps.json
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\bin\Debug\net8.0-windows\Star War.runtimeconfig.json
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\bin\Debug\net8.0-windows\Star War.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\bin\Debug\net8.0-windows\Star War.pdb
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star_War.Form1.resources
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.csproj.GenerateResource.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.AssemblyInfoInputs.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.AssemblyInfo.cs
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.csproj.CoreCompileInputs.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.sourcelink.json
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\refint\Star War.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.pdb
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.genruntimeconfig.cache
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\ref\Star War.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star_War.Properties.Resources.resources
