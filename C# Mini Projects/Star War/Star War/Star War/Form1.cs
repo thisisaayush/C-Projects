@@ -1,12 +1,23 @@
+using Microsoft.VisualBasic.ApplicationServices;
+using WMPLib;
+
 namespace Star_War
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer gameMedia;
+        WindowsMediaPlayer shootMedia;
+
         PictureBox[] stars;
-        int backgroundSpeed;
         int playerSpeed;
-        int ammunitionSpeed;
+        
         PictureBox[] ammunition;
+        int ammunitionSpeed;
+
+        PictureBox[] enemies;
+        int enemiesSpeed;
+
+        int backgroundSpeed;
         Random rnd;
 
         public Form1()
@@ -20,10 +31,32 @@ namespace Star_War
             backgroundSpeed = 4;
             playerSpeed = 4;
             ammunitionSpeed = 20;
+            enemiesSpeed = 4;
 
             ammunition = new PictureBox[3];
 
             Image ammunitionImg = Image.FromFile(@"C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War Images\asserts\munition.png");
+            Image enemy1Img = Image.FromFile(@"C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War Images\asserts\E1.png");
+            Image enemy2Img = Image.FromFile(@"C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War Images\asserts\E2.png");
+            Image enemy3Img = Image.FromFile(@"C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War Images\asserts\E3.png");
+            Image boss1Img = Image.FromFile(@"C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War Images\asserts\Boss1.png");
+            Image boss2Img = Image.FromFile(@"C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War Images\asserts\Boss2.png");
+
+            enemies = new PictureBox[10];
+
+            for (int i = 0; i < enemies.Length; i++)
+            {
+                //enemies[0].Image = boss1Img;
+                //enemies[1].Image = enemy1Img;
+                //enemies[2].Image = enemy2Img;
+                //enemies[3].Image = enemy3Img;
+                //enemies[4].Image = enemy1Img;
+                //enemies[5].Image = enemy3Img;
+                //enemies[6].Image = enemy2Img;
+                //enemies[7].Image = enemy1Img;
+                //enemies[8].Image = enemy2Img;
+                //enemies[9].Image = boss2Img;
+            }
 
             for (int i = 0; i < ammunition.Length; i++)
             {
@@ -34,6 +67,17 @@ namespace Star_War
                 ammunition[i].BorderStyle = BorderStyle.None;
                 this.Controls.Add(ammunition[i]);
             }
+
+            gameMedia = new WindowsMediaPlayer();
+            shootMedia = new WindowsMediaPlayer();
+
+            gameMedia.URL = "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C# Mini Projects\\Star War\\Star War\\Star War Musics\\songs\\GameSong.mp3";
+            shootMedia.URL = "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C# Mini Projects\\Star War\\Star War\\Star War Musics\\songs\\shoot.mp3";
+
+            gameMedia.settings.setMode("loop", true);
+            gameMedia.settings.volume = 5;
+            shootMedia.settings.volume = 2;
+
 
             stars = new PictureBox[10];
             rnd = new Random();
@@ -70,6 +114,8 @@ namespace Star_War
 
                 this.Controls.Add(stars[i]);
             }
+
+            gameMedia.controls.play();
         }
 
         private void MoveBackgroundSpeed_Tick(object sender, EventArgs e)
@@ -161,6 +207,7 @@ namespace Star_War
 
         private void ammunitionSpeedTimer_Tick(object sender, EventArgs e)
         {
+            shootMedia.controls.play();
             for (int i = 0; i < ammunition.Length; i++)
             {
                 if (ammunition[i].Top > 0)

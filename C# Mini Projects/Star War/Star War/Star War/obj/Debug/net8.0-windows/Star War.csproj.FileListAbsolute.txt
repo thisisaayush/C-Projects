@@ -16,3 +16,5 @@ C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Pr
 C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.genruntimeconfig.cache
 C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\ref\Star War.dll
 C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star_War.Properties.Resources.resources
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\thaku\Desktop\Software Engineering Projects\C# Advance Level\C-Sharp-Projects\C# Mini Projects\Star War\Star War\Star War\obj\Debug\net8.0-windows\Star War.csproj.ResolveComReference.cache

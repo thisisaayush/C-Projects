@@ -79,7 +79,7 @@
             // ammunitionSpeedTimer
             // 
             ammunitionSpeedTimer.Enabled = true;
-            ammunitionSpeedTimer.Interval = 20;
+            ammunitionSpeedTimer.Interval = 15;
             ammunitionSpeedTimer.Tick += ammunitionSpeedTimer_Tick;
             // 
             // Form1
