@@ -30,21 +30,22 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            MoveBackgroundSpeed = new System.Windows.Forms.Timer(components);
+            MoveBackgroundSpeedTimer = new System.Windows.Forms.Timer(components);
             Player = new PictureBox();
             LeftMoveTimer = new System.Windows.Forms.Timer(components);
             RightMoveTimer = new System.Windows.Forms.Timer(components);
             DownMoveTimer = new System.Windows.Forms.Timer(components);
             UpMoveTimer = new System.Windows.Forms.Timer(components);
-            ammunitionSpeedTimer = new System.Windows.Forms.Timer(components);
+            AmmunitionSpeedTimer = new System.Windows.Forms.Timer(components);
             EnemiesMoveTimer = new System.Windows.Forms.Timer(components);
+            EnemiesAmmunitionTimer = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             SuspendLayout();
             // 
-            // MoveBackgroundSpeed
+            // MoveBackgroundSpeedTimer
             // 
-            MoveBackgroundSpeed.Interval = 10;
-            MoveBackgroundSpeed.Tick += MoveBackgroundSpeed_Tick;
+            MoveBackgroundSpeedTimer.Interval = 10;
+            MoveBackgroundSpeedTimer.Tick += MoveBackgroundSpeed_Tick;
             // 
             // Player
             // 
@@ -77,16 +78,22 @@
             UpMoveTimer.Interval = 5;
             UpMoveTimer.Tick += UpMoveTimer_Tick;
             // 
-            // ammunitionSpeedTimer
+            // AmmunitionSpeedTimer
             // 
-            ammunitionSpeedTimer.Enabled = true;
-            ammunitionSpeedTimer.Interval = 15;
-            ammunitionSpeedTimer.Tick += ammunitionSpeedTimer_Tick;
+            AmmunitionSpeedTimer.Enabled = true;
+            AmmunitionSpeedTimer.Interval = 15;
+            AmmunitionSpeedTimer.Tick += ammunitionSpeedTimer_Tick;
             // 
             // EnemiesMoveTimer
             // 
             EnemiesMoveTimer.Enabled = true;
             EnemiesMoveTimer.Tick += EnemiesMoveTimer_Tick;
+            // 
+            // EnemiesAmmunitionTimer
+            // 
+            EnemiesAmmunitionTimer.Enabled = true;
+            EnemiesAmmunitionTimer.Interval = 20;
+            EnemiesAmmunitionTimer.Tick += EnemiesAmmunitionTimer_Tick;
             // 
             // Form1
             // 
@@ -109,13 +116,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Timer MoveBackgroundSpeed;
+        private System.Windows.Forms.Timer MoveBackgroundSpeedTimer;
         private PictureBox Player;
         private System.Windows.Forms.Timer LeftMoveTimer;
         private System.Windows.Forms.Timer RightMoveTimer;
         private System.Windows.Forms.Timer DownMoveTimer;
         private System.Windows.Forms.Timer UpMoveTimer;
-        private System.Windows.Forms.Timer ammunitionSpeedTimer;
+        private System.Windows.Forms.Timer AmmunitionSpeedTimer;
         private System.Windows.Forms.Timer EnemiesMoveTimer;
+        private System.Windows.Forms.Timer EnemiesAmmunitionTimer;
     }
 }

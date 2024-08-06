@@ -7,6 +7,7 @@ namespace Star_War
     {
         WindowsMediaPlayer gameMedia;
         WindowsMediaPlayer shootMedia;
+        WindowsMediaPlayer explosion;
 
         PictureBox[] stars;
         int playerSpeed;
@@ -17,13 +18,16 @@ namespace Star_War
         PictureBox[] enemies;
         int enemiesSpeed;
 
+        PictureBox[] enemiesAmmunition;
+        int enemiesAmmunitionSpeed;
+
         int backgroundSpeed;
         Random rnd;
 
         public Form1()
         {
             InitializeComponent();
-            MoveBackgroundSpeed.Start();
+            MoveBackgroundSpeedTimer.Start();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -32,6 +36,7 @@ namespace Star_War
             playerSpeed = 4;
             ammunitionSpeed = 20;
             enemiesSpeed = 4;
+            enemiesAmmunitionSpeed = 4;
 
             ammunition = new PictureBox[3];
 
@@ -78,13 +83,16 @@ namespace Star_War
 
             gameMedia = new WindowsMediaPlayer();
             shootMedia = new WindowsMediaPlayer();
+            explosion = new WindowsMediaPlayer();
 
             gameMedia.URL = "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C# Mini Projects\\Star War\\Star War\\Star War Musics\\songs\\GameSong.mp3";
             shootMedia.URL = "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C# Mini Projects\\Star War\\Star War\\Star War Musics\\songs\\shoot.mp3";
+            explosion.URL = "C:\\Users\\thaku\\Desktop\\Software Engineering Projects\\C# Advance Level\\C-Sharp-Projects\\C# Mini Projects\\Star War\\Star War\\Star War Musics\\songs\\boom.mp3";
 
             gameMedia.settings.setMode("loop", true);
             gameMedia.settings.volume = 5;
             shootMedia.settings.volume = 2;
+            shootMedia.settings.volume = 7;
 
 
             stars = new PictureBox[10];
@@ -121,6 +129,21 @@ namespace Star_War
                 }
 
                 this.Controls.Add(stars[i]);
+            }
+
+            enemiesAmmunition = new PictureBox[10];
+
+            for (int i = 0; i < enemiesAmmunition.Length; i++)
+            {
+                enemiesAmmunition[i] = new PictureBox();
+                enemiesAmmunition[i].Size = new Size(2, 25);
+                enemiesAmmunition[i].Visible = false;
+                enemiesAmmunition[i].BackColor = Color.Yellow;
+
+                int x = rnd.Next(0, 10);
+
+                enemiesAmmunition[i].Location = new Point(enemies[x].Location.X, enemies[x].Location.Y - 20);
+                this.Controls.Add(enemiesAmmunition[i]);
             }
 
             gameMedia.controls.play();
@@ -222,6 +245,7 @@ namespace Star_War
                 {
                     ammunition[i].Visible = true;
                     ammunition[i].Top -= ammunitionSpeed;
+                    Collision();
                 }
 
                 else
@@ -247,6 +271,86 @@ namespace Star_War
                 if (array[i].Top > this.Height)
                 {
                     array[i].Location = new Point((i + 1) * 50, -200);
+                }
+            }
+        }
+
+        private void Collision()
+        {
+            for (int i = 0; i < enemies.Length; i++)
+            {
+                if (ammunition[0].Bounds.IntersectsWith(enemies[i].Bounds) ||
+                    ammunition[1].Bounds.IntersectsWith(enemies[i].Bounds) ||
+                    ammunition[2].Bounds.IntersectsWith(enemies[i].Bounds))
+                {
+                    explosion.controls.play();
+                    enemies[i].Location = new Point((i + 1) * 50, -100);
+                }
+
+                if (Player.Bounds.IntersectsWith(enemies[i].Bounds))
+                {
+                    explosion.settings.volume = 18;
+                    explosion.controls.play();
+                    Player.Visible = false;
+                    GameOver("Game Over!");
+                }
+            }
+        }
+
+        private void GameOver(String str)
+        {
+            gameMedia.controls.stop();
+            StopTimers();
+        }
+
+        private void StopTimers()
+        {
+            MoveBackgroundSpeedTimer.Stop();
+            EnemiesMoveTimer.Stop();
+            AmmunitionSpeedTimer.Stop();
+            EnemiesAmmunitionTimer.Stop();
+        }
+
+        private void StartTimers()
+        {
+            MoveBackgroundSpeedTimer.Start();
+            EnemiesMoveTimer.Start();
+            AmmunitionSpeedTimer.Start();
+            EnemiesAmmunitionTimer.Start();
+        }
+
+        private void EnemiesAmmunitionTimer_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < enemiesAmmunition.Length; i++)
+            {
+                if (enemiesAmmunition[i].Top < this.Height)
+                {
+                    enemiesAmmunition[i].Visible = true;
+                    enemiesAmmunition[i].Top += enemiesAmmunitionSpeed;
+                }
+
+                else
+                {
+                    enemiesAmmunition[i].Visible = false;
+
+                    int x = rnd.Next(0, 10);
+
+                    enemiesAmmunition[i].Location = new Point(enemies[x].Location.X + 20, enemies[x].Location.Y + 30);
+                }
+            }
+        }
+
+        private void CollisionWithEnemiesAmmunition()
+        {
+            for (int i = 0; i < enemiesAmmunition.Length; i++)
+            {
+                if (enemiesAmmunition[i].Bounds.IntersectsWith(Player.Bounds))
+                {
+                    enemiesAmmunition[i].Visible = false;
+                    explosion.settings.volume = 27;
+                    explosion.controls.play();
+                    Player.Visible = false;
+                    GameOver("Game Over!");
                 }
             }
         }
